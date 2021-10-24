@@ -508,5 +508,9 @@
         top: -92px;
         max-width: 100px;
     }
+    .container {
+        width: 95%;
+        max-width: inherit;
+    }
 
 }
