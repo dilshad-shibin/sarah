@@ -452,6 +452,9 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    .benefit-card{
+        margin-bottom: 25px;
+    }
 }
 
 @media(max-width:575px){

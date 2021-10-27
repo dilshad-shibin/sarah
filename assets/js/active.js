@@ -94,6 +94,12 @@
         $.preventDefault();
     });
 
+    // :: 9.0 COUNTERUP ACTIVE CODE
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
 
 
     // :: 12.0 TEAM SLIDER ACTIVE CODE

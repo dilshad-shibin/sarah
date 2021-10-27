@@ -1002,7 +1002,7 @@ a,
 
 .shape-left{
     position: absolute;
-    top: -330px;
+    top: -80px;
     right: -270px;
     background-color: #08442026;
     height: 600px;
@@ -1013,6 +1013,7 @@ a,
 
 .testi-area{
     padding-bottom: 80px;
+    padding-top: 100px;
 }
 
 /* ******************************
@@ -1079,4 +1080,74 @@ a,
 .footer-area{
     background-color: #084420;
     height: 270px;
+}
+
+/* ******************************
+:: 13.0 BENEFIT AREA CSS
+****************************** */
+.benefit-area{
+    background-color: #F9F9F9;
+    padding: 80px 0 150px;
+}
+
+.benefit-content .icon{
+    margin-bottom: 10px;
+}
+
+.benefit-content h2{
+    color: #084420;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.benefit-content h4{
+    color: #084420;
+    font-weight: 400;
+}
+
+.benefit-card{
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 7%);
+    padding: 30px 30px 23px;
+    transition: .3s;
+}
+
+.benefit-card .icon{
+    margin-bottom: 10px;
+}
+
+.benefit-card .icon svg{
+    font-size: 35px;
+    color: #084420;
+}
+
+.benefit-card h3{
+    color: #084420;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.benefit-card span{
+    color: #084420;
+    font-size: 35px;
+}
+
+.benefit-card p{
+    margin-bottom: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #242424;
+    font-size: 16px;
+}
+
+.benefit-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit-boxes{
+    margin-top: -85px;
 }
