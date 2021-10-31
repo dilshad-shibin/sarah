@@ -515,5 +515,14 @@
         width: 95%;
         max-width: inherit;
     }
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .copyright-area{
+        margin-bottom: 10px;
+    }
 
 }
