@@ -1116,18 +1116,18 @@ a,
 .contact-ft h2{
     color: #fff;
     margin-bottom: 20px;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .contact-ft ul{}
 
 .contact-ft ul li{
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .contact-ft ul li a{
     color: #ffffff;
-    font-size: 18px;
+    font-size: 15px;
     transition: all .3s ease;
 }
 

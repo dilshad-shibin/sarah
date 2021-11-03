@@ -553,5 +553,11 @@
     .spc-head h2{
         align-items: flex-start;
     }
+    .contact-top{
+        text-align: center;
+    }
+    #scrollUp{
+        right: 5%;
+    }
 
 }
