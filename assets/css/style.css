@@ -1113,6 +1113,33 @@ a,
     color: #25d366;
 }
 
+.contact-ft h2{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.contact-ft ul{}
+
+.contact-ft ul li{
+    margin-bottom: 8px;
+}
+
+.contact-ft ul li a{
+    color: #ffffff;
+    font-size: 18px;
+    transition: all .3s ease;
+}
+
+.contact-ft ul li a:hover{
+    color: #25d366;
+}
+
+.contact-top{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
 /* ******************************
 :: 13.0 BENEFIT AREA CSS
 ****************************** */
