@@ -1204,3 +1204,41 @@ whatsappp btn */
 .my-float{
 	margin-top:16px;
 }
+
+/* Specialities Area */
+.spec-list-one{
+    padding-left: 50px;
+}
+
+.spc-box{
+    background-color: #dae3de;
+    min-height: 350px;
+}
+
+.spc-head h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 350px;
+    flex-direction: column;
+    color: #084420;
+}
+
+.spec-list li{
+    margin-bottom: 15px;
+}
+
+.spec-list li a{
+    font-size: 23px;
+    color: #000000D9;
+    transition: all .3s ease;
+}
+
+.spec-list li a:hover{
+    color: #704444db;
+}
+
+.spec-list li a svg{
+    color: #084420;
+    margin-right: 5px;
+}
