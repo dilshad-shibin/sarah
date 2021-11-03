@@ -524,5 +524,34 @@
     .copyright-area{
         margin-bottom: 10px;
     }
+    .spc-box{
+        background-color: transparent;
+        min-height: 0;
+    }
+    .spc-head h2{
+        min-height: 0;
+        position: relative;
+        font-size: 30px;
+    }
+
+    .spc-head h2:before{
+        position: absolute;
+        content: "";
+        background-color: #084420;
+        height: 2px;
+        width: 20%;
+        left: 0%;
+        bottom: -15px;
+    }    
+
+    .spec-list-one{
+        padding-left: 0;
+    }
+    .spec-list.spec-list-one li:last-child{
+        border-bottom: 1px solid #ddd;
+    }
+    .spc-head h2{
+        align-items: flex-start;
+    }
 
 }

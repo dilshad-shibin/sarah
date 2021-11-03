@@ -1253,10 +1253,17 @@ whatsappp btn */
 
 .spec-list li{
     margin-bottom: 15px;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.spec-list li:last-child{
+    border-bottom: none;
 }
 
 .spec-list li a{
-    font-size: 23px;
+    font-size: 18px;
     color: #000000D9;
     transition: all .3s ease;
 }
@@ -1265,7 +1272,15 @@ whatsappp btn */
     color: #704444db;
 }
 
-.spec-list li a svg{
+.spec-list li .icon-lst svg{
     color: #084420;
-    margin-right: 5px;
+    margin-right: 15px;
+}
+
+.spec-list{
+    margin-top: 50px;
+}
+
+.spec-list-two{
+    margin-top: 0px;
 }
