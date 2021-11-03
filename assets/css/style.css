@@ -1232,55 +1232,54 @@ whatsappp btn */
 	margin-top:16px;
 }
 
-/* Specialities Area */
-.spec-list-one{
-    padding-left: 50px;
-}
 
-.spc-box{
-    background-color: #dae3de;
-    min-height: 350px;
+/* specialities area */
+.sepecilaities-area{
+    padding-top: 0;
 }
 
 .spc-head h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 350px;
-    flex-direction: column;
+    color: #084420;
+    margin-bottom: 40px;
+}
+
+.card-header h2 .btn-faq{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 0;
     color: #084420;
 }
 
-.spec-list li{
-    margin-bottom: 15px;
-    display: flex;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 15px;
+.accordion .card{
+    margin-bottom: 1rem !important;
 }
 
-.spec-list li:last-child{
-    border-bottom: none;
+.card-header .btn-faq::after, .card-header .btn-faq.collapsed::after{
+    position: absolute;
+    top: 50%;
+    left: calc(100% - 30px);
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
 }
 
-.spec-list li a{
+.card-header .btn-faq::after {
+    content: '+';
+}
+
+.card-header .btn-faq.collapsed::after {
+    content: '-';
+}
+
+.accordion .card .card-body{
     font-size: 18px;
-    color: #000000D9;
-    transition: all .3s ease;
-}
-
-.spec-list li a:hover{
-    color: #704444db;
-}
-
-.spec-list li .icon-lst svg{
-    color: #084420;
-    margin-right: 15px;
-}
-
-.spec-list{
-    margin-top: 50px;
-}
-
-.spec-list-two{
-    margin-top: 25px;
 }

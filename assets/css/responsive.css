@@ -559,5 +559,14 @@
     #scrollUp{
         right: 5%;
     }
+    .card-header h2 .btn-faq{
+        font-size: 16px;
+    }
+    .accordion .card .card-body {
+        font-size: 15px;
+    }
+    .sepecilaities-area{
+        padding-top: 40px;
+    }
 
 }
