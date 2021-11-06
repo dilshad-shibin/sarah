@@ -568,5 +568,21 @@
     .sepecilaities-area{
         padding-top: 40px;
     }
+    .news-head h1{
+        font-size: 40px;
+    }
+    .news-block{
+        margin: 5px;
+        margin-bottom: 30px;
+    }
+    .news-block .lower-box{
+        padding: 35px 20px 30px;
+    }
+    .news-slider.owl-carousel .owl-nav [class*=owl-]{
+        padding: 4px 15px !important;
+    }
+    .news-slider.owl-carousel .owl-nav button span{
+        font-size: 35px;
+    }
 
 }

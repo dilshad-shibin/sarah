@@ -127,6 +127,31 @@
         }
     });
 
+    // :: 12.0 BLOG SLIDER ACTIVE CODE
+    $('.news-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            992: {
+                items: 3
+            }
+        }
+    });
+
     
 
 }(jQuery));
