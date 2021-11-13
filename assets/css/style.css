@@ -1426,7 +1426,7 @@ whatsappp btn */
 
 .news-content .lower-box{
     position: relative;
-    padding: 75px 35px 40px;
+    padding: 55px 35px 40px;
 }
 
 .news-content .lower-box h3{
@@ -1445,6 +1445,11 @@ whatsappp btn */
     margin-bottom: 22px;
 }
 
+.news-content .lower-box .text p{
+    font-size: 16px;
+    line-height: 27px;
+}
+
 .lower-box h4{
     color: #084420;
     margin-bottom: 10px;
@@ -1455,4 +1460,97 @@ whatsappp btn */
 .post-meta ul li span{
     font-weight: 400;
     font-size: 15px;
+}
+
+/* Blog Details */
+.banner-area{
+    position: relative;
+}
+
+
+
+.banner-inner{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/blog/dfghg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.banner-inner h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.side-news {
+    padding: 40px 30px 50px;
+    background: #ffffff;
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 5%), 0px 20px 25px 0px rgb(0 0 0 / 3%);
+    margin-bottom: 50px;
+}
+
+.sidenews-title {
+    margin-bottom: 27px;
+}
+
+.sidenews-title h4 {
+    position: relative;
+    display: inline-block;
+    font-size: 26px;
+    line-height: 1.30em;
+    color: #181b1f;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+.side-news .post {
+    position: relative;
+    font-size: 14px;
+    color: #777777;
+    padding: 0px 0px 0px 110px;
+    min-height: 90px;
+    margin-bottom: 30px;
+}
+
+.side-news .post-thumb {
+    background-position: center center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 90px;
+    height: 90px;
+    border-radius: 0;
+}
+
+.side-news .post-thumb1 {
+    background-image: url(../img/blog/02.jpg);
+}
+
+.side-news .post-thumb2 {
+    background-image: url(../img/blog/single-1.jpg);
+}
+
+.side-news .post-thumb3 {
+    background-image: url(../img/blog/news-image-1.jpg);
+}
+
+.side-news .post .info {
+    padding-top: 3px;
+    color: #8e949f;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.side-news .post .text {
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #222222;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
 }

@@ -455,6 +455,14 @@
     .benefit-card{
         margin-bottom: 25px;
     }
+    .banner-inner{
+        height: 200px;
+    }
+    .banner-inner h1{
+        font-size: 42px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
 }
 
 @media(max-width:575px){
@@ -583,6 +591,16 @@
     }
     .news-slider.owl-carousel .owl-nav button span{
         font-size: 35px;
+    }
+    .news-content .lower-box h3{
+        font-size: 22px;
+        margin-top: 5px;
+    }
+    .banner-inner {
+        height: 120px;
+    }
+    .banner-inner h1{
+        font-size: 32px;
     }
 
 }
